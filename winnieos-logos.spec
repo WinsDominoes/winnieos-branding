@@ -2,7 +2,7 @@
 %global vendor bluefin
 
 Name:           winnieos-logos
-Version:        0.2.0
+Version:        0.0.1
 Release:        1%{?dist}
 Summary:        winnieos logos
 
