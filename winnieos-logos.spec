@@ -1,10 +1,10 @@
 %global debug_package %{nil}
 %global vendor bluefin
 
-Name:           secureblue-logos
+Name:           winnieos-logos
 Version:        0.2.0
 Release:        1%{?dist}
-Summary:        secureblue logos
+Summary:        winnieos logos
 
 License:        Apache 2.0
 Provides: fedora-logos
@@ -13,12 +13,12 @@ Provides: system-logos
 Obsoletes: fedora-logos
 Obsoletes: centos-logos
 Obsoletes: system-logos
-URL:            https://github.com/secureblue/branding
+URL:            https://github.com/winsdominoes/winnieos-branding
 VCS:           {{{ git_dir_vcs }}}
 Source:        {{{ git_dir_pack }}}
 
 %description
-Logos for secureblue
+Logos for winnieos
 
 %prep
 {{{ git_dir_setup_macro }}}
